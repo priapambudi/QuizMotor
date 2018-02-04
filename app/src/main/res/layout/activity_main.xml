@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.priapambudi.kebonkodingproject.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:id="@+id/lineLearn">
+
+            <ImageView
+                android:layout_width="@dimen/lebar"
+                android:layout_height="@dimen/lebar"
+                android:src="@drawable/learn" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="learn"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textSize="30sp"
+                android:background="#90CAF9"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:id="@+id/linePractice">
+
+            <ImageView
+                android:layout_width="@dimen/lebar"
+                android:layout_height="@dimen/lebar"
+                android:src="@drawable/practice"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="practice"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textSize="30sp"
+                android:background="#90CAF9"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:id="@+id/lineAboutUs">
+
+            <ImageView
+                android:layout_width="@dimen/lebar"
+                android:layout_height="@dimen/lebar"
+                android:src="@drawable/aboutus"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="about us"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textSize="30sp"
+                android:background="#90CAF9"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:id="@+id/lineContactUs">
+
+            <ImageView
+                android:layout_width="@dimen/lebar"
+                android:layout_height="@dimen/lebar"
+                android:src="@drawable/contact"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="contact us"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif"
+                android:textSize="30sp"
+                android:background="#90CAF9"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
